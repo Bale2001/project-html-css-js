@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+    margin: 0 auto;
+}
+.search-box{
+    background-color: #000;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+}
+button{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+}
+input{
+    width: 330px;
+    height: 70px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.full{
+    width: 400px;
+}
